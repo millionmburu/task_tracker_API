@@ -18,4 +18,3 @@ api.add_resource(TaskDetail, '/tasks/<int:task_id>')
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
 
-# deploy test - watching auto-deploy in action
